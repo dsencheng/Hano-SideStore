@@ -1,0 +1,44 @@
+{
+  "name": "Hano",
+  "identifier": "com.dsen.Hano.source",
+  "subtitle": "Hano SideStore Builds",
+  "description": "Unsigned Hano builds for installation through SideStore.",
+  "sourceURL": "https://raw.githubusercontent.com/dsencheng/Hano-SideStore/main/sidestore.json",
+  "iconURL": "https://raw.githubusercontent.com/dsencheng/Hano-SideStore/main/AppIcon.png",
+  "website": "https://github.com/dsencheng/Hano",
+  "apps": [
+    {
+      "name": "Hano",
+      "bundleIdentifier": "com.dsen.Hano",
+      "developerName": "Dsen",
+      "subtitle": "Modular AI chat and agent client",
+      "localizedDescription": "Hano is a modular iOS client for AI chat, local agents, device connectivity, and media workflows.",
+      "iconURL": "https://raw.githubusercontent.com/dsencheng/Hano-SideStore/main/AppIcon.png",
+      "tintColor": "4F46E5",
+      "category": "utilities",
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "Hano 会使用蓝牙扫描、连接并调试附近的 BLE 设备。",
+          "NSCameraUsageDescription": "Hano 需要使用相机拍照并发送到聊天。",
+          "NSLocalNetworkUsageDescription": "Hano 会使用本地网络发现附近设备，用于局域网聊天与内容同步。",
+          "NSLocationWhenInUseUsageDescription": "Hano 会使用一次城市级定位生成本地天气卡片，只输出城市和行政区，不会保存精确坐标。",
+          "NSMicrophoneUsageDescription": "Hano 需要使用麦克风进行语音录制和语音输入。",
+          "NSSpeechRecognitionUsageDescription": "Hano 需要语音识别权限将语音实时转换为文字。"
+        }
+      },
+      "versions": [
+        {
+          "version": "1.0.27",
+          "buildVersion": "27",
+          "date": "2026-09-04T08:17:06Z",
+          "localizedDescription": "Automated main build f3cbbb3",
+          "downloadURL": "https://raw.githubusercontent.com/dsencheng/Hano-SideStore/main/Hano-unsigned.ipa",
+          "size": 8548877,
+          "sha256": "9751ebad1fff2da3e29e0ce2243383b035092835d4313fc8e4a0238e2c123741",
+          "minOSVersion": "18"
+        }
+      ]
+    }
+  ]
+}
